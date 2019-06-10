@@ -1,2 +1,2 @@
-# aaron-min.github.io
+# Aaron Min
 Website
