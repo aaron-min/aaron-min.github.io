@@ -1,43 +1,40 @@
-<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:700&display=swap" rel="stylesheet">
-<style>
-    body {
-	width: 100%;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: linear-gradient(to right, #FDFBFB, #EBEDEE 70%);
-    }
-    #name{
-        color: #123852;
-        font-weight: 800;
-        font-size: 48px;
-        font-family: 'Libre Franklin', sans-serif;
-        margin-bottom: -45px;
-        margin-left: 75px;
-        background: linear-gradient(to right, #123852 0%, #709FC0 100%);
-	    -webkit-background-clip: text;
-	    -webkit-text-fill-color: transparent;
-    }
-    #bio{
-        color: #123852;
-        font-weight: lighter;
-        font-size: 34px;
-        font-family: monospace;
-        background: linear-gradient(to right, #123852 0%, #709FC0 100%);
-	    -webkit-background-clip: text;
-	    -webkit-text-fill-color: transparent;
-    }
-</style>
 <!DOCTYPE html>
+<html lang = "en-US">
     <head>
-        <title>Aaron Min</title>
+        <!--LINK JQUERY-->
+        <script type="text/javascript" src="jquery-3.4.1.js"></script>
+        <!--PERSONAL SCRIPT JavaScript-->
+        <script type="text/javascript" src="js.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
-    <body>
-        <div id="header">
-            <h1 id="name">Aaron Min</h1>
-            <h3 id="bio">CompE Student @ NYU_</h3>
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#Home">Home</a>
+                <a class="navbar-brand" href="#About_Me">About Me</a>
+                <a class="navbar-brand" href="#Portfolio">Portfolio</a>
+                <a class="navbar-brand" href="#Contact">Contact</a>
+                <a class="navbar-brand" href="#Resume">Resumé</a>
+            </div>
         </div>
-    </body>
+    </nav>
+    <main id="Home">
+        <div class="container">
+            <a ><h4 id="hi">Hi, my name is</h4></a>
+            <h1 id="name">Aaron Min.</h1>
+            <h1 id="I_am">I am</h1>
+            <h1 id="adjectives"class="typewrite" data-period="2000" data-type='[ "a programmer.", " a creator.", " an engineer.", " an innovator." ]'>
+                    <span class="wrap"></span>
+            </h1>
+            <p id="blurb">I'm an honors student studying Computer Engineering at New York University. I enjoy <span class="coding">coding</span>,
+                 building stuff, photography, and playing the saxophone!</p>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+    </main>
     
+    
+
 </html>

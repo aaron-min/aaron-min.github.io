@@ -1,0 +1,56 @@
+main {
+    margin-top: -100px;
+    background-color: rgb(235, 237, 238);
+}
+
+#hi {
+    padding-top: 100px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    margin: 100px 0px 0px 40px;
+    font-size: 25px;
+    font-weight: 400;
+}
+#name {
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 100px;
+    margin: 10px 0px 0px 40px;
+    font-weight: 600;
+}
+
+#I_am {
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 100px;
+    margin: 10px 0px 0px 40px;
+    font-weight: 400;
+    color: #4c4c4c;
+}
+
+#adjectives {
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 100px;
+    margin:-120px 0px 0px 240px;
+    font-weight: 400;
+    color: #4c4c4c;
+}
+
+#blurb {
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 20px;
+    margin: 30px 0px 0px 45px;
+    width: 470px;
+}
+
+.coding {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 17px;
+}
+
+@media (max-width: 1000px) {
+    #adjectives {
+        font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+        font-size: 100px;
+        margin:20px 0px 0px 40px;
+        font-weight: 400;
+        color:#4c4c4c;
+    }
+}
