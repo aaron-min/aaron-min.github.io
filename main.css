@@ -1,5 +1,8 @@
 .navbar {
     margin-right: -60px;
+    font-weight: 600;
+    background-color: white;
+    border-bottom: 2px solid #000000;
 }
 
 main {
@@ -7,20 +10,24 @@ main {
     margin-right: -60px; 
     background-color: rgb(235, 237, 238);
     padding-right: -40px;
-    padding-left: -20px;
+}
+
+#Home {
+    position: relative
+
 }
 
 #hi {
     padding-top: 180px;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-    margin: 55px 0px 0px 45px;
+    margin: 55px 0px 0px 0px;
     font-size: 25px;
     font-weight: 400;
 }
 #name {
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     font-size: 100px;
-    margin: 10px 0px 0px 40px;
+    margin: 10px 0px 0px 0px;
     font-weight: 600;
     background: linear-gradient(to right, #123852 0%, #709FC0 100%);
 	    -webkit-background-clip: text;
@@ -30,7 +37,7 @@ main {
 #I_am {
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     font-size: 100px;
-    margin: 10px 0px 0px 40px;
+    margin: 10px 0px 0px 0px;
     font-weight: 400;
     color: #4c4c4c;
 }
@@ -38,7 +45,7 @@ main {
 #adjectives {
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     font-size: 100px;
-    margin:-120px 0px 0px 240px;
+    margin:-120px 0px 0px 200px;
     font-weight: 400;
     background: linear-gradient(to left, #801505 0%, #D46A6A 100%);
 	    -webkit-background-clip: text;
@@ -48,7 +55,7 @@ main {
 #blurb {
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     font-size: 20px;
-    margin: 30px 0px 0px 45px;
+    margin: 30px 0px 0px 0px;
     width: 470px;
 }
 
@@ -63,8 +70,7 @@ main {
 }
 
 #About_Me {
-    margin: 150px 0px 0px 160px;
-    padding-top: 100px;
+    padding-top: 130px;
     position: relative;
 }
 
@@ -91,12 +97,18 @@ hr {
     line-height: 2;
 }
 
+.experience {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 17px;
+}
+
 @media (max-width: 1000px) {
     #adjectives {
         font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
         font-size: 100px;
-        margin:20px 0px 0px 40px;
+        margin: 0px 0px 0px 00px;
         font-weight: 400;
         color:#4c4c4c;
     }
+
 }
