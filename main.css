@@ -1,12 +1,19 @@
+.navbar {
+    margin-right: -60px;
+}
+
 main {
-    margin-top: -100px;
+    margin-top: -110px;
+    margin-right: -60px; 
     background-color: rgb(235, 237, 238);
+    padding-right: -40px;
+    padding-left: -20px;
 }
 
 #hi {
-    padding-top: 100px;
+    padding-top: 180px;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-    margin: 100px 0px 0px 40px;
+    margin: 55px 0px 0px 45px;
     font-size: 25px;
     font-weight: 400;
 }
@@ -15,6 +22,9 @@ main {
     font-size: 100px;
     margin: 10px 0px 0px 40px;
     font-weight: 600;
+    background: linear-gradient(to right, #123852 0%, #709FC0 100%);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
 }
 
 #I_am {
@@ -30,7 +40,9 @@ main {
     font-size: 100px;
     margin:-120px 0px 0px 240px;
     font-weight: 400;
-    color: #4c4c4c;
+    background: linear-gradient(to left, #801505 0%, #D46A6A 100%);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
 }
 
 #blurb {
@@ -40,9 +52,43 @@ main {
     width: 470px;
 }
 
+#NYU {
+    color: #57068c;
+    font-weight: 600;
+}
+
 .coding {
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-size: 17px;
+}
+
+#About_Me {
+    margin: 150px 0px 0px 160px;
+    padding-top: 100px;
+    position: relative;
+}
+
+#About {
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+hr {
+    padding: 0;
+}
+
+#selfpic {
+    position: absolute;
+    margin-left: 550px;
+}
+
+.About_text {
+    width: 400px;
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2;
 }
 
 @media (max-width: 1000px) {
