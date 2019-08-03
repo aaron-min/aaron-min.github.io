@@ -1,5 +1,4 @@
 .navbar {
-    margin-right: -60px;
     font-weight: 600;
     background-color: white;
     border-bottom: 2px solid #000000;
@@ -7,9 +6,8 @@
 
 main {
     margin-top: -110px;
-    margin-right: -60px; 
     background-color: rgb(235, 237, 238);
-    padding-right: -40px;
+    margin-right: -50px;
 }
 
 #Home {
@@ -27,7 +25,7 @@ main {
 #name {
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     font-size: 100px;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 0px -5px;
     font-weight: 600;
     background: linear-gradient(to right, #123852 0%, #709FC0 100%);
 	    -webkit-background-clip: text;
@@ -37,7 +35,7 @@ main {
 #I_am {
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     font-size: 100px;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 0px -5px;
     font-weight: 400;
     color: #4c4c4c;
 }
@@ -45,7 +43,7 @@ main {
 #adjectives {
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     font-size: 100px;
-    margin:-120px 0px 0px 200px;
+    margin:-120px 0px 0px 195px;
     font-weight: 400;
     background: linear-gradient(to left, #801505 0%, #D46A6A 100%);
 	    -webkit-background-clip: text;
@@ -70,8 +68,9 @@ main {
 }
 
 #About_Me {
-    padding-top: 130px;
+    padding-top: 90px;
     position: relative;
+    margin-top: 100px;
 }
 
 #About {
@@ -102,11 +101,80 @@ hr {
     font-size: 17px;
 }
 
+.row1 {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.row2 {
+    margin-top: 40px;
+}
+
+.row1elem {
+    float: left;
+    margin-right: 140px;
+}
+
+.row2elem {
+    float: left;
+    margin-right: 30px;
+}
+
+#pyimg {
+    margin-left: 5px;
+    margin-bottom: 5px; 
+}
+
+#htmlimg {
+    margin-left: -27px;
+    margin-bottom: 5px;
+}
+
+#cssimg {
+    margin-left: -7px;
+    margin-bottom: 5px;
+}
+
+#gitimg {
+    margin-left: -12px;
+    margin-bottom: 5px;
+}
+
+#lrimg {
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+#illusimg {
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+#aeimg {
+    margin-left: 63px;
+    margin-bottom: 5px;
+}
+
+#fcpimg {
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+#afimg {
+    margin-left: 52px;
+    margin-bottom: 5px;
+}
+
+
+#AF {
+    margin-top: 5px;
+}
+
 @media (max-width: 1000px) {
     #adjectives {
         font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
         font-size: 100px;
-        margin: 0px 0px 0px 00px;
+        margin: 0px 0px 0px -5px;
         font-weight: 400;
         color:#4c4c4c;
     }
