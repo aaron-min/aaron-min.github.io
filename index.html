@@ -10,15 +10,14 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
-    <nav class="navbar sticky-top navbar-light nav-fill w-100">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#hi">Home</a>
-                <a class="navbar-brand" href="#About_Me">About Me</a>
-                <a class="navbar-brand" href="#Portfolio">Portfolio</a>
-                <a class="navbar-brand" href="#Contact">Contact</a>
-                <a class="navbar-brand" href="#Resume">Resumé</a>
-            </div>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light d-flex">
+        <a class="navbar-brand"></a>
+        <div class="navbar-nav nav-fill w-100">
+            <a class="nav-item nav-link w-20 active" href="#Home">Home</a>
+            <a class="nav-item nav-link w-20 active" href="#About_Me">About Me</a>
+            <a class="nav-item nav-link w-20 active" href="#Portfolio">Portfolio</a>
+            <a class="nav-item nav-link w-20 active" href="#Contact">Contact</a>
+            <a class="nav-item nav-link w-20 active" href="#Resume">Resumé</a>
         </div>
     </nav>
     <main>
@@ -26,7 +25,7 @@
             <h4 id="hi">Hi, my name is</h4>
             <h1 id="name">Aaron Min.</h1>
             <h1 id="I_am">I am</h1>
-            <h1 id="adjectives"class="typewrite" data-period="2000" data-type='[ "a programmer.", " a creator.", " an engineer.", " an innovator.", " a thinker.", " a musician." ]'>
+            <h1 id="adjectives"class="typewrite" data-period="2000" data-type='[ "a programmer.", " a creator.", " an engineer.", " an innovator.", " a thinker." ]'>
                     <span class="wrap"></span>
             </h1>
             <p id="blurb">I'm an honors student studying Computer Engineering at <span id="NYU">New York University</span>. I enjoy <span class="coding">coding</span>,
@@ -42,16 +41,49 @@
                      NYU's Rogue Aerospace Team and Theta Tau, a professional engineering fraternity. Alongside these activities,
                      I have gained experience in the following:
                 </p>
+        </div>
            <div class="experience">
-                <p id="Python">Python</p>
-                <p id="HTML">HTML</p>
-                <p id="CSS">CSS</p>
-                <p id="Git">Git</p>
-                <p id="Adobe Lightroom">Adobe Lightroom</p>
-                <p id="Adobe Illustrator">Adobe Illustrator</p>
-                <p id="Adobe After Effects">Adobe After Effects</p>
-                <p id="Final Cut Pro">Final Cut Pro</p>
-                <p id="Autodesk Fusion">Autodesk Fusion</p>
+                <div class="row1">
+                    <div class="row1elem" id="Python">
+                        <img id="pyimg" src="python.png" style= width:50px;>
+                        <h6>Python</h6>
+                    </div>
+                    <div class="row1elem" id="HTML">
+                        <img id="htmlimg" src="html.png" style= width:90px;>
+                        <h6>HTML</h6>
+                    </div>
+                    <div class="row1elem" id="CSS">
+                        <img id="cssimg" src="css.png" style= width:45px;>
+                        <h6>CSS</h6>
+                    </div>
+                    <div id="Git">
+                        <img id="gitimg" src="git.png" style= width:55px;>
+                        <h6>Git</h6>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="row2elem" id="Lightroom">
+                        <img id="lrimg" src="lightroom.png" style= width:50px;>
+                        <h6>Adobe Lightroom</h6>
+                    </div>
+                    <div class="row2elem" id="Illustrator">
+                        <img id="illusimg" src="Illustrator.png" style= width:50px;>
+                        <h6>Adobe Illustrator</h6>
+                    </div>
+                    <div class="row2elem" id="After Effects">
+                        <img id="aeimg" src="after.png" style= width:50px;>
+                        <h6>Adobe After Effects</h6>
+                    </div>
+                    <div class="row2elem" id="FCP">
+                        <img id="fcpimg" src="fcp.png" style= width:50px;>
+                        <h6>Final Cut Pro</h6>
+                    </div>
+                    <div class="row2elem" id="AF">
+                        <img id="afimg" src="fusion.png" style= width:30px;>
+                        <h6>Autodesk Fusion</h6>
+                    </div>
+                </div>
+
            </div>
         
             
