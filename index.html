@@ -10,27 +10,54 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/865344d4d0.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light d-flex">
-        <a class="navbar-brand"></a>
-        <div class="navbar-nav nav-fill w-100">
-            <a class="nav-item nav-link w-20 active" href="#Home">Home</a>
-            <a class="nav-item nav-link w-20 active" href="#About_Me">About Me</a>
-            <a class="nav-item nav-link w-20 active" href="#Portfolio">Portfolio</a>
-            <a class="nav-item nav-link w-20 active" href="#Contact">Contact</a>
-            <a class="nav-item nav-link w-20 active" href="#Resume">Resumé</a>
+
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dropdown">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="dropdown">
+                <ul class="nav navbar-nav nav-fill w-100">
+                    <a class="nav-item nav-link w-20 active" href="#Home">Home</a>
+                    <a class="nav-item nav-link w-20 active" href="#About_Me">About Me</a>
+                    <a class="nav-item nav-link w-20 active" href="#Portfolio">Portfolio</a>
+                    <a class="nav-item nav-link w-20 active" href="#Contact">Contact</a>
+                    <a class="nav-item nav-link w-20 active" href="#Resume">Resumé</a>
+                </ul>
+            </div>
+
         </div>
     </nav>
     <main>
         <div class="container" id="Home">
-            <h4 id="hi">Hi, my name is</h4>
-            <h1 id="name">Aaron Min.</h1>
-            <h1 id="I_am">I am</h1>
-            <h1 id="adjectives"class="typewrite" data-period="2000" data-type='[ "a programmer.", " a creator.", " an engineer.", " an innovator.", " a thinker." ]'>
-                    <span class="wrap"></span>
-            </h1>
-            <p id="blurb">I'm an honors student studying Computer Engineering at <span id="NYU">New York University</span>. I enjoy <span class="coding">coding</span>,
+            <div class="row">
+                <div class="col-sm">
+                    <h4 id="hi">Hi, my name is</h4>
+                    <h1 id="name">Aaron Min.</h1>
+                </div>
+            </div>
+            <div class="row row-no-gutters" id="adjectives-div">
+                <div class="col-sm-auto">
+                    <h1 id="I_am">I am</h1>
+                </div>
+                <div class="col-sm-auto">
+                    <h1 id="adjectives" class="typewrite" data-period="2000" data-type='[ " an engineer."," a creator.", " an innovator.", " a thinker." ]'>
+                        <span class="wrap"></span>
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <p id="blurb">I'm an honors student studying Computer Engineering at <span id="NYU">New York University</span>. I enjoy <span class="coding">coding</span>,
                  building stuff, taking photos, and playing the saxophone!</p>
+                </div>
+            </div>
+            
         </div>
        <div class="container" id="About_Me">
            <h3 id="About">About Me</h3> <hr width=43% align=left>
@@ -119,30 +146,28 @@
             </div>
         </div>
        </div>
-</main>
+    </main>
   
-<div class="mt-5 pt-5 pb-5 footer">
+    <div class="mt-5 pt-5 pb-5 footer">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-5 col-xs-12">
-              <h2>Aaron Min</h2>
-              <p class="pr-5 text-white-50">Connect with me!</p>
-              <p>
-                <a href="mailto:aaron.min@nyu.edu"><i class="far fa-envelope" style="font-size: 40px; margin-right:70px;"></i></a>
-                <a href="https://www.linkedin.com/in/aaronhmin/"><i class="fab fa-linkedin-in" style="font-size: 40px; margin-right:70px;"></i></a>
-                <a href="https://www.github.com/aaron-min"><i class="fab fa-github" style="font-size: 40px; margin-right:70px;"></i></a>
-                <a href="https://www.instagram.com/aaronnmin"><i class="fab fa-instagram" style="font-size: 40px;"></i></a>
+            <div class="row">
+                <div class="col-lg-5 col-xs-12">
+                <h2>Aaron Min</h2>
+                <p class="pr-5 text-white-50">Connect with me!</p>
+                <p>
+                    <a href="mailto:aaron.min@nyu.edu"><i class="far fa-envelope" style="font-size: 40px; margin-right:70px;"></i></a>
+                    <a href="https://www.linkedin.com/in/aaronhmin/"><i class="fab fa-linkedin-in" style="font-size: 40px; margin-right:70px;"></i></a>
+                    <a href="https://www.github.com/aaron-min"><i class="fab fa-github" style="font-size: 40px; margin-right:70px;"></i></a>
+                    <a href="https://www.instagram.com/aaronnmin"><i class="fab fa-instagram" style="font-size: 40px;"></i></a>
 
-                
-            </p>
+                    
+                </p>
+                </div>
+            <div class="row mt-5">
+                <div class="col copyright">
+                <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+                </div>
             </div>
-          <div class="row mt-5">
-            <div class="col copyright">
-              <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
             </div>
-          </div>
-        </div>
-        </div>
-
-
+    </div>
 </html>
