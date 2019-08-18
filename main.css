@@ -23,18 +23,20 @@ main {
 #Home {
     margin-top: 80px;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #hi {
     padding-top: 180px;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-    font-size: 25px;
+    font-size: 4vmin;
     font-weight: 400;
 }
 
 #name {
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-    font-size: 100px;
+    font-size: 13vmin;
     font-weight: 600;
     background: linear-gradient(to right, #123852 0%, #709FC0 100%);
 	    -webkit-background-clip: text;
@@ -43,7 +45,7 @@ main {
 
 #I_am {
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-    font-size: 100px;
+    font-size: 13vmin;
     font-weight: 400;
     color: #4c4c4c;
     margin-bottom: -20px;
@@ -51,7 +53,7 @@ main {
 
 #adjectives {
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-    font-size: 100px;
+    font-size: 13vmin;
     font-weight: 400;
     background: linear-gradient(to left, #801505 0%, #D46A6A 100%);
 	    -webkit-background-clip: text;
@@ -60,7 +62,7 @@ main {
 
 #blurb {
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-    font-size: 20px;
+    font-size: 3vmin;
     margin-top: 40px;
     width: 250%;
 }
@@ -72,7 +74,7 @@ main {
 
 .coding {
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-    font-size: 17px;
+    font-size: 3vmin;
 }
 
 /* About Start */
@@ -80,56 +82,36 @@ main {
     padding-top: 80px;
     position: relative;
     margin-top: 160px;/*can be in percentage also.*/
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    width: 950px;
 }
 
 #About {
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-    font-size: 28px;
+    font-size: 4vmin;
     font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 hr {
     padding: 0;
-}
-
-#selfpic {
-    position: absolute;
-    margin-left: 550px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .About_text {
-    width: 400px;
+    width: 80%;
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 2.3vmin;
     line-height: 2;
 }
 
 .experience {
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-size: 17px;
-}
-
-.row1 {
-    margin-top: 60px;
-    margin-left: 100px;
-}
-
-.row2 {
-    margin-top: 40px;
-}
-
-.row1elem {
-    float: left;
-    margin-right: 140px;
-}
-
-.row2elem {
-    float: left;
-    margin-right: 30px;
 }
 
 #pyimg {
@@ -236,14 +218,14 @@ hr {
 }
 
 
-@media screen and (max-width: 600px) { /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 575px) { /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   .column {
     flex: 100%;
     max-width: 100%;
   }
   #adjectives {
-    margin-top: 10px;
+    margin-top: 25px;
   }
-
 }
+
 
