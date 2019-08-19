@@ -105,99 +105,65 @@ hr {
     width: 80%;
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     font-weight: 500;
-    font-size: 2.3vmin;
+    font-size: 2.6vmin;
     line-height: 2;
 }
 
 .experience {
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-    font-size: 17px;
+    font-family: 'Titillium Web', sans-serif;;
+    text-align: center;
+    font-weight: bold;
 }
 
-#pyimg {
-    margin-left: 5px;
-    margin-bottom: 5px; 
+.experience img {
+    display: block;
+    margin: 0 auto;
 }
 
-#htmlimg {
-    margin-left: -27px;
-    margin-bottom: 5px;
+
+#After {
+    margin-top: .5%;
 }
 
-#cssimg {
-    margin-left: -7px;
-    margin-bottom: 5px;
-}
-
-#gitimg {
-    margin-left: -12px;
-    margin-bottom: 5px;
-}
-
-#lrimg {
-    margin-left: 50px;
-    margin-bottom: 5px;
-}
-
-#illusimg {
-    margin-left: 60px;
-    margin-bottom: 5px;
-}
-
-#aeimg {
-    margin-left: 63px;
-    margin-bottom: 5px;
-}
-
-#fcpimg {
-    margin-left: 30px;
-    margin-bottom: 5px;
-}
-
-#afimg {
-    margin-left: 52px;
-    margin-bottom: 5px;
-}
-
-#AF {
-    margin-top: 5px;
-}
 /* About End */
 
 /* Photos Start */
-#Portfolio {
+#Gallery {
     padding-top: 80px;
     position: relative;
     margin-top: 200px;/*can be in percentage also.*/
     margin-left: auto;
     margin-right: auto;
-    width: 950px;
 }
 
-#PortText {
+#GalText {
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     font-size: 28px;
     font-weight: 600;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+.img-fluid {
+    padding-bottom: 8px;
 }
 
-
-.column { /* Create four equal columns that sits next to each other */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+.column1 {
+    padding-right: 8px !important;
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+.column2 {
+    padding-right: 8px !important;
+    padding-left: 0px !important;
 }
+
+.column3 {
+    padding-right: 8px !important;
+    padding-left: 0px !important;
+}
+
+.column4 {
+    padding-left: 0px !important;
+}
+
 /* Photos End */
 
 /* Footer */
@@ -208,24 +174,49 @@ hr {
     a:hover{color:#4180CB}
     .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 }
-/* Footer End */
 
-@media screen and (max-width: 800px) { /* Responsive layout - makes a two column-layout instead of four columns */
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
+#connect {
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+#copyright {
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Footer End */
 
 @media screen and (max-width: 575px) { /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
   #adjectives {
     margin-top: 25px;
   }
+  .About_text {
+      margin-left: 7%;
+  }
+  #selfpic {
+      margin-right: 3%;
+  }
+  .column1 {
+      padding-left: 10px !important;
+  }
+  .column2 {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+   }   
+   .column3 {
+        padding-left: 10px !important;
+    }
+    .column4 {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .col-sm-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
 }
 
 

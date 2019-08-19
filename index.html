@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang = "en-US">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--LINK JQUERY-->
         <script type="text/javascript" src="jquery-3.4.1.js"></script>
         <!--PERSONAL SCRIPT JavaScript-->
         <script type="text/javascript" src="js.js"></script>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
         <link rel="stylesheet" type="text/css" href="main.css">
+
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+
         <script src="https://kit.fontawesome.com/865344d4d0.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet">
     </head>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light d-flex">
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dropdown">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="dropdown">
-                <ul class="nav navbar-nav nav-fill w-100">
-                    <a class="nav-item nav-link w-20 active" href="#Home">Home</a>
-                    <a class="nav-item nav-link w-20 active" href="#About_Me">About Me</a>
-                    <a class="nav-item nav-link w-20 active" href="#Portfolio">Portfolio</a>
-                    <a class="nav-item nav-link w-20 active" href="#Contact">Contact</a>
-                    <a class="nav-item nav-link w-20 active" href="#Resume">Resumé</a>
-                </ul>
-            </div>
-
+        <div class="collapse navbar-collapse" id="collapse_target">
+            <ul class="nav navbar-nav nav-fill w-100">
+                <li class="nav-item">
+                    <a class="nav-link nav-link w-30 active" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link w-30 active" href="#About_Me">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link w-30 active" href="#Gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link w-30 active" href="#Contact">Contact</a>
+                </li>
+            </ul>
         </div>
+        
     </nav>
     <main>
         <div class="container" id="Home">
@@ -77,107 +86,160 @@
                         </p>
                     </div>  
                 </div>
-                <div class="col-xs-5">
-
-                    <img class="img-responsive" src="IMG_5157.jpg" id="selfpic" alt="pic of me" style="width: 40vmin; height: auto; margin-right: auto; border-radius: 10%;">
+                <div class="col-xs-5" id="selfpic">
+                    <img class="img-responsive" src="IMG_5157.jpg" alt="pic of me" style="width: 40vmin; height: auto; margin-right: auto; border-radius: 10%;">
                 </div>    
            </div>
-            <div class="row flex-nowrap">
+            <div class="row flex-nowrap" style="padding-top: 3%;" id="row1">
                 <div class="col experience " id="Python">
-                    <img id="pyimg" src="python.png" style= width:50px;>
+                    <img id="pyimg" src="python.png" style= width:7vmin;>
                     <h6>Python</h6>
                 </div>
                 <div class="col experience" id="HTML">
-                    <img id="htmlimg" src="html.png" style= width:90px;>
+                    <img id="htmlimg" src="html.png" style= width:13vmin;>
                     <h6>HTML</h6>
                 </div>
                 <div class="col experience" id="CSS">
-                    <img id="cssimg" src="css.png" style= width:45px;>
+                    <img id="cssimg" src="css.png" style= width:6.5vmin;>
                     <h6>CSS</h6>
                 </div>
                 <div class="col experience" id="Git">
-                    <img id="gitimg" src="git.png" style= width:55px;>
+                    <img id="gitimg" src="git.png" style= width:7vmin;>
                     <h6>Git</h6>
                 </div>
             </div>
-            <div class="row flex-nowrap">
+            <div class="row flex-nowrap" style="padding-top: 3%;" id="row2">
                 <div class="col experience" id="Lightroom">
-                    <img id="lrimg" src="lightroom.png" style= width:50px;>
+                    <img id="lrimg" src="lightroom.png" style= width:7vmin;>
                     <h6>Adobe Lightroom</h6>
                 </div>
                 <div class="col experience" id="Illustrator">
-                    <img id="illusimg" src="Illustrator.png" style= width:50px;>
+                    <img id="illusimg" src="Illustrator.png" style= width:7vmin;>
                     <h6>Adobe Illustrator</h6>
                 </div>
-                <div class="col experience" id="After Effects">
-                    <img id="aeimg" src="after.png" style= width:50px;>
+                <div class="col experience" id="After">
+                    <img id="aeimg" src="after.png" style= "width:6.5vmin;">
                     <h6>Adobe After Effects</h6>
                 </div>
                 <div class="col experience" id="FCP">
-                    <img id="fcpimg" src="fcp.png" style= width:50px;>
+                    <img id="fcpimg" src="fcp.png" style= width:6.5vmin;>
                     <h6>Final Cut Pro</h6>
-                </div>
-                <div class="col experience" id="AF">
-                    <img id="afimg" src="fusion.png" style= width:30px;>
-                    <h6>Autodesk Fusion</h6>
                 </div>
             </div>
         </div>
-       <div class="container" id="Portfolio">
-           <h3 id="PortText">Portfolio</h3> <hr width=43% align=left>
-        <div class="row"> 
-            <div class="column">
-                <img src="Sun.jpg">
-                <img src="Lunar.jpg">
-                <img src="Bridge.jpg">
-                <img src="HoyinBridge.jpg">
-                <img src="Silhouette.jpg"> 
-            </div>
-            <div class="column">
-                <img src="SkylineSunset.jpg">
-                <img src="Milky.jpg">
-                <img src="Waterfall.jpg">
-                <img src="JulieBridge.jpg">
-                <img src="ChristianPlant.jpg"> 
-            </div> 
-            <div class="column">
-                <img src="Skyline.jpg">
-                <img src="Hawaii.jpg">
-                <img src="Grasshopper.JPG">
-                <img src="HoyinScaffolding.jpg">
-                <img src="Float.jpg"> 
-            </div>
-            <div class="column">
-                <img src="9-11.jpg">
-                <img src="StarTrails.jpg">
-                <img src="steel.jpg">
-                <img src="Julie Bokeh.jpg">
-                <img src="ChristianCar.jpg">
+       <div class="container" id="Gallery">
+           <h3 id="GalText" align=center>Gallery</h3> 
+           <hr width=43% align=left>
+            <div class="row row-no-gutters flex-wrap nopadding"> 
+                <div class="col-sm-3 column1">
+                    <div class="sun">
+                        <img class="img-fluid img-responsive" src="Sun.jpg">
+                    </div>
+                    <div class="lunar">
+                        <img class="img-fluid img-responsive" src="Lunar.jpg">
+                    </div>
+                    <div class="bridge">
+                        <img class="img-fluid img-responsive" src="Bridge.jpg">
+                    </div>
+                    <div class="hoyinBridge">
+                        <img class="img-fluid img-responsive" src="HoyinBridge.jpg">
+                    </div>
+                    <div class="silhouette">
+                        <img class="img-fluid img-responsive" src="Silhouette.jpg"> 
+                    </div>
+                </div>
+                <div class="col-sm-3 column2">
+                    <div class="skylineSunset">
+                        <img class="img-fluid img-responsive" src="SkylineSunset.jpg">
+                    </div>
+                    <div class="milky">
+                        <img class="img-fluid img-responsive" src="Milky.jpg">
+                    </div>
+                    <div class="waterfall">
+                        <img class="img-fluid img-responsive" src="Waterfall.jpg">
+                    </div>
+                    <div class="julieBridge">
+                        <img class="img-fluid img-responsive" src="JulieBridge.jpg">
+                    </div>
+                    <div class="Christianplant">
+                        <img class="img-fluid img-responsive" src="ChristianPlant.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-3 column3">
+                    <div class="skyline">
+                        <img class="img-fluid img-responsive" src="Skyline.jpg">
+                    </div>
+                    <div class="hawaii">
+                        <img  class="img-fluid img-responsive"src="Hawaii.jpg">
+                    </div>
+                    <div class="grasshopper">
+                        <img class="img-fluid img-responsive" src="Grasshopper.JPG">
+                    </div>
+                    <div class="hoyinscaffolding">
+                        <img class="img-fluid img-responsive" src="HoyinScaffolding.jpg">
+                    </div>
+                    <div class="float">
+                        <img class="img-fluid img-responsive" src="Float.jpg"> 
+                    </div>
+                </div>
+                <div class="col-sm-3 column4">
+                    <div class="9-11">
+                        <img class="img-fluid img-responsive" src="9-11.jpg">
+                    </div>
+                    <div class="startrails">
+                        <img class="img-fluid img-responsive" src="StarTrails.jpg">
+                    </div>
+                    <div class="steel">
+                        <img class="img-fluid img-responsive" src="steel.jpg">
+                    </div>
+                    <div class="JulieBokeh">
+                        <img class="img-fluid img-responsive" src="Julie Bokeh.jpg">
+                    </div>
+                    <div class="christiancar">
+                        <img class="img-fluid img-responsive" src="ChristianCar.jpg">
+                    </div>
+                </div> 
             </div>
         </div>
        </div>
     </main>
-  
-    <div class="mt-5 pt-5 pb-5 footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-xs-12">
-                <h2>Aaron Min</h2>
-                <p class="pr-5 text-white-50">Connect with me!</p>
-                <p>
-                    <a href="mailto:aaron.min@nyu.edu"><i class="far fa-envelope" style="font-size: 40px; margin-right:70px;"></i></a>
-                    <a href="https://www.linkedin.com/in/aaronhmin/"><i class="fab fa-linkedin-in" style="font-size: 40px; margin-right:70px;"></i></a>
-                    <a href="https://www.github.com/aaron-min"><i class="fab fa-github" style="font-size: 40px; margin-right:70px;"></i></a>
-                    <a href="https://www.instagram.com/aaronnmin"><i class="fab fa-instagram" style="font-size: 40px;"></i></a>
-
-                    
-                </p>
+    <footer>
+        <div class="mt-2 pt-5 pb-2 footer" id="Contact">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12" align=center>
+                        <h2>Aaron Min</h2>
+                        <p class="text-white-50">Connect with me!</p>
+                    </div>
+                <div class="row" id="connect">
+                    <div class="col-sm-3">
+                        <p>
+                            <a href="mailto:aaron.min@nyu.edu"><i class="far fa-envelope" style="font-size: 40px;"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>
+                            <a href="https://www.linkedin.com/in/aaronhmin/"><i class="fab fa-linkedin-in" style="font-size: 40px;"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>
+                            <a href="https://www.github.com/aaron-min"><i class="fab fa-github" style="font-size: 40px;"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>
+                            <a href="https://www.instagram.com/aaronnmin"><i class="fab fa-instagram" style="font-size: 40px;"></i></a>   
+                        </p>
+                    </div>
                 </div>
-            <div class="row mt-5">
-                <div class="col copyright">
-                <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
                 </div>
-            </div>
-            </div>
-    </div>
+                <div class="row row-no-gutters">
+                    <div class="col-sm-12" id="copyright" align=center>
+                        <p class=""><small class="text-white-50">© 2019 Aaron Min. All Rights Reserved.</small></p>
+                    </div>
+                </div>
+        </div>
+    </footer>
+    
 </html>
