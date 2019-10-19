@@ -106,12 +106,12 @@ hr {
     width: 80%;
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     font-weight: 500;
-    font-size: 2.6vmin;
+    font-size: 2.8vmin;
     line-height: 2;
 }
 
 .experience {
-    font-family: 'Titillium Web', sans-serif;;
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     text-align: center;
     font-weight: bold;
 }
@@ -249,6 +249,14 @@ hr {
     .col-sm-3 {
         flex: 0 0 50%;
         max-width: 50%;
+    }
+
+    .About_text {
+        font-size: 3vmin;
+    }
+
+    .logo-caption {
+        font-size: 3vmin;
     }
 
 }
