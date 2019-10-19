@@ -189,6 +189,39 @@ hr {
 }
 /* Footer End */
 
+@media (prefers-color-scheme: dark) {
+    .navbar-light {
+        background-color: rgb(50, 54, 57)!important;
+    }
+
+    .nav-link {
+        color: rgb(235, 237, 238)!important;
+    }
+
+    .navbar{
+        border-bottom: 2px solid white;
+    }
+    main {
+    background-color: rgb(50, 54, 57);
+    color: rgb(235, 237, 238);
+    }
+
+    #I_am {
+        color: rgb(235, 237, 238);
+    }
+
+    #name {
+        background: linear-gradient(to right, #2F658A 0%, #D2E5F3 100%);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+    }
+    
+    #NYU {
+        color: #9a009a;
+    }
+
+}
+
 @media screen and (max-width: 575px) { /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   #adjectives {
     margin-top: 25px;
