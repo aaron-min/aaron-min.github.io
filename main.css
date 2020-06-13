@@ -26,6 +26,7 @@ main {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 13%;
 }
 
 #hi {
@@ -86,9 +87,10 @@ main {
 
 /* About Start */
 #About_Me {
-    padding-top: 80px;
     position: relative;
-    margin-top: 160px;/*can be in percentage also.*/
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 100px;/*can be in percentage also.*/
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -132,20 +134,77 @@ hr {
     margin-top: .5%;
 }
 
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+
+.zoomCol1:hover {
+    transform: scale(3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index:10;
+    position: relative;
+    padding-left: 35%;
+}
+
+.zoomCol1vert:hover {
+    transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index:10;
+    position: relative;
+    padding-left: 35%;
+}
+
+.zoomCol2:hover {
+    transform: scale(1.75); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index:10;
+    position: relative;
+}
+
+.zoomCol2vert:hover {
+    transform: scale(1.45); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index:10;
+    position: relative;
+}
+
+.zoomCol3:hover {
+    transform: scale(1.75); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index:10;
+    position: relative;
+}
+
+.zoomCol3vert:hover {
+    transform: scale(1.45); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index:10;
+    position: relative;
+}
+
+.zoomCol4:hover {
+    transform: scale(3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index:10;
+    position: relative;
+    padding-right: 35%;
+}
+
+.zoomCol4vert:hover {
+    transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index:10;
+    position: relative;
+    padding-right: 35%;
+}
+
 /* About End */
 
 /* Photos Start */
 #Gallery {
-    padding-top: 80px;
+    padding-top: 4%;
     position: relative;
-    margin-top: 200px;/*can be in percentage also.*/
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 7%;
 }
 
 #GalText {
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-    font-size: 28px;
+    font-size: 4vmin;
     font-weight: 600;
 }
 
@@ -174,6 +233,7 @@ hr {
 /* Photos End */
 
 /* Footer */
+
 .footer{
     background: #152F4F;
     color:white;
@@ -229,6 +289,15 @@ hr {
 }
 
 @media screen and (max-width: 575px) { /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+  #Home {
+      padding-bottom: 50%;
+      transform: scale(1.2);
+      padding-left: 15%
+  }
+  #About_Me {
+      padding-top: 8%;
+  }
   #typewriter {
       margin-top: 8%;
   }
@@ -240,6 +309,15 @@ hr {
   }
   #coding {
       font-size: 2.7vmin;
+  }
+  #Gallery {
+      padding-top: 8%;
+  }
+  .zoomCol2:hover {
+      padding-right: 35%;
+  }
+  .zoomCol3:hover {
+      padding-left: 35%;
   }
   .column1 {
       padding-left: 10px !important;
