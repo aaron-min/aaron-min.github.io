@@ -272,6 +272,9 @@ hr {
     .navbar{
         border-bottom: 2px solid #C3B6A2;
     }
+
+    ul.nav a:hover { color: #e4d6bf !important; }
+
     main {
     background-color: #101f2c;
     color: #C3B6A2;
@@ -289,6 +292,10 @@ hr {
     
     #NYU {
         color: #D8BFD8;
+    }
+
+    hr.galHR {
+        border: 1px solid #C3B6A2;
     }
 
     .footer {
