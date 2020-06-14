@@ -261,19 +261,19 @@ hr {
     }
 
     .nav-link {
-        color: rgb(235, 237, 238)!important;
+        color: #C3B6A2 !important;
     }
 
     .navbar{
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid #C3B6A2;
     }
     main {
-    background-color: rgb(50, 54, 57);
-    color: rgb(235, 237, 238);
+    background-color: #101f2c;
+    color: #C3B6A2;
     }
 
     #I_am {
-        color: rgb(235, 237, 238);
+        color: #C3B6A2;
     }
 
     #name {
@@ -283,7 +283,11 @@ hr {
     }
     
     #NYU {
-        color: #9a009a;
+        color: #D8BFD8;
+    }
+
+    .footer {
+        background-color: rgb(50, 54, 57)!important;
     }
 
 }
