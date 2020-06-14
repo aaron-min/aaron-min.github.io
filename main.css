@@ -14,6 +14,7 @@ html,body
     border-bottom: 2px solid #000000;
 }
 
+ul.nav a:hover { color: rgb(89, 87, 87) !important; }
 
 main {
     margin-top: -110px;
@@ -183,39 +184,39 @@ hr {
 }
 
 .zoomCol1:hover{
-    transform: scale(3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(3.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     z-index:10;
     position: relative;
     padding-left: 35%;
 }
 
 .zoomCol1vert:hover {
-    transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     z-index:10;
     position: relative;
     padding-left: 35%;
 }
 
 .zoomCol2:hover {
-    transform: scale(1.75); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(2.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     z-index:10;
     position: relative;
 }
 
 .zoomCol2vert:hover {
-    transform: scale(1.45); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    z-index:10;
-    position: relative;
-}
-
-.zoomCol3:hover {
     transform: scale(1.75); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     z-index:10;
     position: relative;
 }
 
+.zoomCol3:hover {
+    transform: scale(2.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    z-index:10;
+    position: relative;
+}
+
 .zoomCol3vert:hover {
-    transform: scale(1.45); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.75); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     z-index:10;
     position: relative;
 }
@@ -241,8 +242,8 @@ hr {
 .footer{
     background: #152F4F;
     color:white;
-    a{transition: color .2s;}
-    a:hover{color:#4180CB}
+    /* a{transition: color .2s;}
+    a:hover{color:#4180CB} */
     .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 }
 
@@ -334,7 +335,14 @@ hr {
   #GalText {
       font-size: 7vmin;
   }
+  .zoomCol1:hover {
+      transform: scale(3);
+  }
   .zoomCol2:hover {
+      padding-right: 35%;
+      transform: scale(3);
+  }
+  .zoomCol2vert:hover {
       padding-right: 35%;
       transform: scale(3);
   }
@@ -342,6 +350,14 @@ hr {
       padding-left: 35%;
       transform: scale(3);
   }
+  .zoomCol3vert:hover {
+    padding-left: 35%;
+    transform: scale(3);
+}
+.zoomCol4vert:hover {
+    transform: scale(3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
   .column1 {
       padding-left: 10px !important;
   }
