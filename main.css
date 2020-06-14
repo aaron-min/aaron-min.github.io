@@ -134,11 +134,51 @@ hr {
     margin-top: .5%;
 }
 
+/* About End */
+
+/* Photos Start */
+#Gallery {
+    padding-top: 4%;
+    position: relative;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 7%;
+}
+
+#GalText {
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 4vmin;
+    font-weight: 600;
+}
+
+.img-fluid {
+    padding-bottom: 8px;
+}
+
+.column1 {
+    padding-right: 8px !important;
+}
+
+.column2 {
+    padding-right: 8px !important;
+    padding-left: 0px !important;
+}
+
+.column3 {
+    padding-right: 8px !important;
+    padding-left: 0px !important;
+}
+
+.column4 {
+    padding-left: 0px !important;
+}
+
 .zoom {
     transition: transform .2s; /* Animation */
 }
 
-.zoomCol1:hover {
+.zoomCol1:hover{
     transform: scale(3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     z-index:10;
     position: relative;
@@ -188,46 +228,6 @@ hr {
     z-index:10;
     position: relative;
     padding-right: 35%;
-}
-
-/* About End */
-
-/* Photos Start */
-#Gallery {
-    padding-top: 4%;
-    position: relative;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 7%;
-}
-
-#GalText {
-    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-    font-size: 4vmin;
-    font-weight: 600;
-}
-
-.img-fluid {
-    padding-bottom: 8px;
-}
-
-.column1 {
-    padding-right: 8px !important;
-}
-
-.column2 {
-    padding-right: 8px !important;
-    padding-left: 0px !important;
-}
-
-.column3 {
-    padding-right: 8px !important;
-    padding-left: 0px !important;
-}
-
-.column4 {
-    padding-left: 0px !important;
 }
 
 /* Photos End */
@@ -298,11 +298,18 @@ hr {
   #About_Me {
       padding-top: 8%;
   }
+  #About {
+      font-size: 7vmin;
+  }
   #typewriter {
       margin-top: 8%;
   }
   .About_text {
       margin-left: 7%;
+      font-size: 3vmin;
+  }
+  .logo-caption {
+    font-size: 3vmin;
   }
   #selfpic {
       margin-right: 3%;
@@ -310,14 +317,22 @@ hr {
   #coding {
       font-size: 2.7vmin;
   }
+
+
+  
   #Gallery {
       padding-top: 8%;
   }
+  #GalText {
+      font-size: 7vmin;
+  }
   .zoomCol2:hover {
       padding-right: 35%;
+      transform: scale(3);
   }
   .zoomCol3:hover {
       padding-left: 35%;
+      transform: scale(3);
   }
   .column1 {
       padding-left: 10px !important;
@@ -326,25 +341,17 @@ hr {
         padding-left: 10px !important;
         padding-right: 10px !important;
    }   
-   .column3 {
+  .column3 {
         padding-left: 10px !important;
-    }
-    .column4 {
+  }
+  .column4 {
         padding-left: 10px !important;
         padding-right: 10px !important;
-    }
-    .col-sm-3 {
+  }
+  .col-sm-3 {
         flex: 0 0 50%;
         max-width: 50%;
-    }
-
-    .About_text {
-        font-size: 3vmin;
-    }
-
-    .logo-caption {
-        font-size: 3vmin;
-    }
+  }
 
 }
 

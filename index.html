@@ -30,6 +30,16 @@
 
             gtag('config', 'UA-150359662-1');
         </script>
+        <!-- Note: plugin scripts must be included after the tracking snippet. -->
+        <script src="https://ipmeta.io/plugin.js"></script>
+
+        <script>
+        provideGtagPlugin({
+            serviceProvider: 'dimension1',
+            networkDomain: 'dimension2',
+            networkType: 'dimension3',
+        });
+        </script>
 
     </head>
     <nav class="navbar navbar-expand-md navbar-light sticky-top">
@@ -141,7 +151,7 @@
                 </div>
                 <div class="row row-no-gutters">
                     <div class="col-sm-12" id="copyright" align=center>
-                        <p><small class="text-white-50">© 2019 Aaron Min. All Rights Reserved.</small></p>
+                        <p><small class="text-white-50">© 2020 Aaron Min. All Rights Reserved.</small></p>
                     </div>
                 </div>
         </div>
