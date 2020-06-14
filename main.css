@@ -152,6 +152,10 @@ hr {
     font-weight: 600;
 }
 
+#tip {
+    margin-top: -1%;
+}
+
 .img-fluid {
     padding-bottom: 8px;
 }
