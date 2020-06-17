@@ -90,7 +90,7 @@ main {
 #About_Me {
     position: relative;
     padding-top: 4%;
-    padding-bottom: 4%;
+    padding-bottom: 13%;
     margin-top: 100px;/*can be in percentage also.*/
     width: 100%;
     margin-left: auto;
@@ -130,6 +130,9 @@ hr {
     margin: 0 auto;
 }
 
+#Latex {
+    margin-top: -7px;
+}
 
 #After {
     margin-top: .5%;
@@ -289,6 +292,10 @@ hr {
 	    -webkit-background-clip: text;
 	    -webkit-text-fill-color: transparent;
     }
+
+    #footerName {
+        color: #C3B6A2;
+    }
     
     #NYU {
         color: #D8BFD8;
@@ -305,7 +312,6 @@ hr {
 }
 
 @media screen and (max-width: 575px) { /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-
   #Home {
       padding-bottom: 50%;
       transform: scale(1.2);
