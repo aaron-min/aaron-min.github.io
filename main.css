@@ -256,6 +256,12 @@ hr {
     margin-right: auto;
 }
 
+#connect2 {
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #copyright {
     text-align: center !important;
     margin-left: auto;
@@ -317,6 +323,9 @@ hr {
       transform: scale(1.2);
       padding-left: 15%
   }
+  #blurb {
+      font-size: 4vmin;
+  }
   #About_Me {
       padding-top: 8%;
   }
@@ -328,7 +337,8 @@ hr {
   }
   .About_text {
       margin-left: 7%;
-      font-size: 3vmin;
+      font-size: 4vmin;
+      
   }
   .logo-caption {
     font-size: 3vmin;
@@ -366,10 +376,10 @@ hr {
   .zoomCol3vert:hover {
     padding-left: 35%;
     transform: scale(3);
-}
-.zoomCol4vert:hover {
+  }
+  .zoomCol4vert:hover {
     transform: scale(3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
+  }
 
   .column1 {
       padding-left: 10px !important;
@@ -395,5 +405,8 @@ hr {
 @media screen and (max-width: 375px) {
     #CSS{
         margin-left:-1.5%;
+    }
+    #footerName {
+        font-size: 1.6em;
     }
 }
