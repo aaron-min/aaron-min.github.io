@@ -110,6 +110,12 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
+/* 
+.Nemorphism {
+    background: linear-gradient(145deg, #fafdfe, #d3d4d5);
+box-shadow:  20px 20px 60px #777879, 
+             -20px -20px 60px #ffffff;
+} */
 
 .About_text {
     width: 80%;
