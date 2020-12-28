@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--LINK JQUERY-->
+        <script
+			  src="https://code.jquery.com/jquery-3.5.1.js"
+			  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			  crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="main.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+
+        <script src="https://kit.fontawesome.com/865344d4d0.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150359662-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-150359662-1');
+        </script>
+        <!-- Note: plugin scripts must be included after the tracking snippet. -->
+        <script src="https://ipmeta.io/plugin.js"></script>
+
+        <script>
+        provideGtagPlugin({
+            apiKey: '28c18b929d0f8cd2c22425df13ceed8a7bb054be00172c434429ecc2cb27b031',
+            serviceProvider: 'dimension1',
+            networkDomain: 'dimension2',
+            networkType: 'dimension3',
+        });
+
+        </script>
+
+        <link rel="icon" type="image/png" href="/favicon.png"/>
+
+    </head>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target" href="#">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapse_target">
+            <ul class="nav navbar-nav nav-fill w-100">
+                <li class="nav-item">
+                    <a class="nav-link nav-link w-30 active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link w-30 active" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link w-30 active" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link w-30 active" href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+    <main>
+        <div class= "container">
+            <div id="Return" class="col-sm-auto">
+                <button style="margin-top: 14%; margin-bottom: -14%;" type="button" 
+                class="btn btn-outline-secondary" onclick="history.back()">Return to Gallery</button>
+            </div>
+        </div>
+       <div class="container" id="Gallery">
+           <h3 id="GalText" align=center>Portraits</h3> 
+           <div class="col-sm-auto" align=center>
+               <p>Portrait photos are the most fun to take because it gives me an excuse to explore
+                   photogenic places with my friends.</p>
+               <p id="tip">Tip: Hover over photos with your cursor (tap if you're on mobile) to get a better look</p>
+           </div>
+           <hr class="galHR" width=43% align=left>
+            <div class="row row-no-gutters flex-wrap nopadding"> 
+                <div class="col-sm-3 column1">
+                    <div class="hoyinBridge">
+                        <img class="img-fluid img-responsive zoomCol1vert" src="Photos/GalleryCol1/HoyinBridge.jpg">
+                    </div>
+                    <div class="julieBridge">
+                        <img class="img-fluid img-responsive zoomCol2" src="Photos/GalleryCol2/JulieBridge.jpg">
+                    </div>
+                    <div class="JulieBokeh">
+                        <img class="img-fluid img-responsive zoomCol4" src="Photos/GalleryCol4/Julie Bokeh.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-3 column2">
+
+                    <div class="Christianplant">
+                        <img class="img-fluid img-responsive zoomCol2vert" src="Photos/GalleryCol2/ChristianPlant.jpg">
+                    </div>
+                    <div class="hoyinscaffolding">
+                        <img class="img-fluid img-responsive zoomCol3 zoomCol3vert" src="Photos/GalleryCol3/HoyinScaffolding.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-3 column3">
+                    <div class="Kathleen">
+                        <img class="img-fluid img-responsive zoomCol3vert" src="Photos/GalleryCol3/Kathleen.jpg">
+                    </div>
+                    <div class="silhouette">
+                        <img class="img-fluid img-responsive zoomCol1" src="Photos/GalleryCol1/Silhouette.jpg"> 
+                    </div>
+                </div>
+                <div class="col-sm-3 column4">
+                    <div class="christiancar">
+                        <img class="img-fluid img-responsive zoomCol4vert" src="Photos/GalleryCol4/ChristianCar.jpg">
+                    </div>
+                    <div class="float">
+                        <img class="img-fluid img-responsive zoomCol3" src="Photos/GalleryCol3/Float.jpg"> 
+                    </div>
+                </div> 
+            </div>
+        </div>
+       </div>
+    </main>
+    <footer>
+        <div class="mt-2 pt-5 pb-2 footer" id="Contact">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12" align=center>
+                        <h2 id="footerName">Aaron Min</h2>
+                        <p class="text-white-50">Connect with me!</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center" id="connect">
+                    <div class="col-auto">
+                        <p>
+                            <a href="mailto:aaron.min@nyu.edu"><i class="far fa-envelope connectIcon" style="font-size: 40px;"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-auto">
+                        <p>
+                            <a href="https://www.linkedin.com/in/aaronhmin/"><i class="fab fa-linkedin-in" style="font-size: 40px;"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-auto">
+                        <p>
+                            <a href="https://www.github.com/aaron-min"><i class="fab fa-github" style="font-size: 40px;"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row justify-content-center" id="connect2">
+                    <div class="col-auto">
+                        <p>
+                            <a href="https://www.instagram.com/aaronnmin"><i class="fab fa-instagram" style="font-size: 40px;"></i></a>   
+                        </p>
+                    </div>
+                    <div class="col-auto">
+                        <p>
+                            <a href="https://open.spotify.com/user/aaronmin23?si=OW_r4HxZSh-3AME3vOFqFw"><i class="fab fa-spotify" style="font-size: 40px;"></i></a>   
+                        </p>
+                    </div>
+                </div>
+                <div class="row row-no-gutters">
+                    <div class="col-sm-12" id="copyright" align=center>
+                        <p><small class="text-white-50">© 2020 Aaron Min. All Rights Reserved.</small></p>
+                    </div>
+                </div>
+        </div>
+    </footer>
+    
+</html>
