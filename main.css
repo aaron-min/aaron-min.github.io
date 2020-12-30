@@ -189,6 +189,7 @@ a:hover {
 
 .img-fluid {
     padding-bottom: 8px;
+    outline: none !important;
 }
 
 .galCol1 {
