@@ -154,7 +154,7 @@ box-shadow:  20px 20px 60px #777879,
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 14%;
+    padding-bottom: 4%;
 }
 
 #GalText {
@@ -167,6 +167,16 @@ box-shadow:  20px 20px 60px #777879,
     margin-top: -1%;
 }
 
+#galCategories {
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+}
+
+.galCat {
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+}
+
 .categoryText {
     font-size: 25px;
     color: black !important;
@@ -174,6 +184,7 @@ box-shadow:  20px 20px 60px #777879,
 
 a:hover {
     text-decoration: none !important;
+    outline: none !important;
 }
 
 .img-fluid {
