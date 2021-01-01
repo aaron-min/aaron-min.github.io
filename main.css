@@ -23,11 +23,11 @@ main {
 }
 
 #Home {
-    margin-top: 80px;
+    margin-top: 90px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 13%;
+    padding-bottom: 20%;
 }
 
 #hi {
@@ -90,7 +90,7 @@ main {
 #About_Me {
     position: relative;
     padding-top: 4%;
-    padding-bottom: 13%;
+    padding-bottom: 5%;
     margin-top: 100px;/*can be in percentage also.*/
     width: 100%;
     margin-left: auto;
@@ -110,12 +110,6 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
-/* 
-.Nemorphism {
-    background: linear-gradient(145deg, #fafdfe, #d3d4d5);
-box-shadow:  20px 20px 60px #777879, 
-             -20px -20px 60px #ffffff;
-} */
 
 .About_text {
     width: 80%;
@@ -124,6 +118,10 @@ box-shadow:  20px 20px 60px #777879,
     font-size: 2.8vmin;
     line-height: 3;
     /* padding-top: 6%; */
+}
+
+#selfpic {
+    margin-left: 2%;
 }
 
 .experience {
@@ -348,6 +346,10 @@ a:hover {
     
     #NYU {
         color: #D8BFD8;
+    }
+
+    .categoryText {
+        color: #C3B6A2 !important;
     }
 
     hr.galHR {
